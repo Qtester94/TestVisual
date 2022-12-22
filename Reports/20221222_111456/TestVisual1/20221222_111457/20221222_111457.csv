@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestVisual1,Chrome 108.0.0.0,,,2022-12-22 11:15:03,2022-12-22 11:15:34,31.486s,PASSED
+,,,,,,,
+Test Cases/Test1,Chrome 108.0.0.0,,,2022-12-22 11:15:03,2022-12-22 11:15:19,15.576s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-22 11:15:03,2022-12-22 11:15:06,2.119s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 108.0.0.0,,,2022-12-22 11:15:06,2022-12-22 11:15:15,9.529s,PASSED
+"takeScreenshotAsCheckpoint(""Test1A"")",Chrome 108.0.0.0,,,2022-12-22 11:15:15,2022-12-22 11:15:17,2.101s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-22 11:15:17,2022-12-22 11:15:19,1.551s,PASSED
+,,,,,,,
+Test Cases/Test2,Chrome 108.0.0.0,,,2022-12-22 11:15:19,2022-12-22 11:15:24,5.730s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-22 11:15:19,2022-12-22 11:15:20,1.100s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 108.0.0.0,,,2022-12-22 11:15:20,2022-12-22 11:15:22,1.509s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/p_Forgot your password""))",Chrome 108.0.0.0,,,2022-12-22 11:15:22,2022-12-22 11:15:23,1.334s,PASSED
+"takeScreenshotAsCheckpoint(""Test2"")",Chrome 108.0.0.0,,,2022-12-22 11:15:23,2022-12-22 11:15:24,0.907s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-22 11:15:24,2022-12-22 11:15:24,0.629s,PASSED
+,,,,,,,
+Test Cases/Test3,Chrome 108.0.0.0,,,2022-12-22 11:15:24,2022-12-22 11:15:34,9.939s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-22 11:15:25,2022-12-22 11:15:26,1.103s,PASSED
+"navigateToUrl(""https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"")",Chrome 108.0.0.0,,,2022-12-22 11:15:26,2022-12-22 11:15:32,6.269s,PASSED
+"click(findTestObject(""Object Repository/Page_OrangeHRM/button_Login""))",Chrome 108.0.0.0,,,2022-12-22 11:15:32,2022-12-22 11:15:33,1.029s,PASSED
+"takeScreenshotAsCheckpoint(""Test3"")",Chrome 108.0.0.0,,,2022-12-22 11:15:33,2022-12-22 11:15:34,0.722s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-22 11:15:34,2022-12-22 11:15:34,0.611s,PASSED
