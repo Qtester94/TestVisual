@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestVisual1" time="24.443" tests="4" failures="0" errors="0">
+   <testsuite name="TestVisual1" tests="4" failures="0" errors="0" time="24.443" skipped="0" timestamp="2022-12-22 11:35:05" hostname="WeDoQA-ThinkPad-Man7 - Daniels-Thinkpad" id="Test Suites/TestVisual1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\WeDoQA-ThinkPad-Man7\\git\\TestVisual\\Reports\\20221222_113455\\TestVisual1\\20221222_113456"/>
+         <property name="logFiles" value="C:\\Users\\WeDoQA-ThinkPad-Man7\\git\\TestVisual\\Reports\\20221222_113455\\TestVisual1\\20221222_113456\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-Test1A.png, keyes\keyes-Test2.png, keyes\keyes-Test3.png, keyes\keyes-Test4.png"/>
+         <property name="hostName" value="WeDoQA-ThinkPad-Man7 - Daniels-Thinkpad"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.111"/>
+         <property name="sessionId" value="3a14e218f89295ef25903b093cdb582e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="7.638" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2022-12-22 11:35:06 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2022-12-22 11:35:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-22 11:35:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-22 11:35:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-22 11:35:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-22 11:35:08 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:10 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Test1A"): Taking screenshot successfully
+
+2022-12-22 11:35:12 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-22 11:35:12 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Test1A.png]]
+
+2022-12-22 11:35:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-22 11:35:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test2" time="5.207" classname="Test Cases/Test2" status="PASSED">
+         <system-out><![CDATA[2022-12-22 11:35:13 - [TEST_CASE][PASSED] - Test Cases/Test2: Test Cases/Test2
+
+2022-12-22 11:35:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-22 11:35:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-22 11:35:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-22 11:35:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-22 11:35:15 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:16 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/p_Forgot your password")): Object: 'Object Repository/Page_OrangeHRM/p_Forgot your password' is clicked on
+
+2022-12-22 11:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/p_Forgot your password' is clicked on
+
+2022-12-22 11:35:17 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Test2"): Taking screenshot successfully
+
+2022-12-22 11:35:18 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-22 11:35:18 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Test2.png]]
+
+2022-12-22 11:35:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-22 11:35:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test3" time="4.661" classname="Test Cases/Test3" status="PASSED">
+         <system-out><![CDATA[2022-12-22 11:35:18 - [TEST_CASE][PASSED] - Test Cases/Test3: Test Cases/Test3
+
+2022-12-22 11:35:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-22 11:35:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-22 11:35:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-22 11:35:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-22 11:35:20 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:21 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-22 11:35:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-22 11:35:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Test3"): Taking screenshot successfully
+
+2022-12-22 11:35:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-22 11:35:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Test3.png]]
+
+2022-12-22 11:35:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-22 11:35:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test4" time="6.708" classname="Test Cases/Test4" status="PASSED">
+         <system-out><![CDATA[2022-12-22 11:35:23 - [TEST_CASE][PASSED] - Test Cases/Test4: Test Cases/Test4
+
+2022-12-22 11:35:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-22 11:35:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-22 11:35:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-22 11:35:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-22 11:35:24 - [TEST_STEP][PASSED] - navigateToUrl("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"): Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:26 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login' successfully
+
+2022-12-22 11:35:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_OrangeHRM/input_Username_username"), "hdhdh"): Text 'hdhdh' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+2022-12-22 11:35:27 - [MESSAGE][PASSED] - Text 'hdhdh' is set on object 'Object Repository/Page_OrangeHRM/input_Username_username'
+
+2022-12-22 11:35:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_OrangeHRM/input_Password_password"), "GcFxTh/6P02sJBNFP4JL7g=="): Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+2022-12-22 11:35:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Password_password'
+
+2022-12-22 11:35:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_OrangeHRM/button_Login")): Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-22 11:35:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/button_Login' is clicked on
+
+2022-12-22 11:35:28 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("Test4"): Taking screenshot successfully
+
+2022-12-22 11:35:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-12-22 11:35:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes\keyes-Test4.png]]
+
+2022-12-22 11:35:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-22 11:35:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-22 11:35:05 - [TEST_SUITE][PASSED] - TestVisual1: Test Cases/Test4]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
